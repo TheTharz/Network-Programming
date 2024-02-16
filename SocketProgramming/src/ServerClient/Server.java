@@ -3,7 +3,10 @@ package ServerClient;
 public class Server {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		System.out.println("\t\t\t Simple Socket Server\n");
+		System.out.println("\t\t\t=======================\n\n");
+		
 
 	}
 
