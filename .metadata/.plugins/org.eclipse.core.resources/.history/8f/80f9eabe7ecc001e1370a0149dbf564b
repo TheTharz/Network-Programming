@@ -30,9 +30,12 @@ public class Server {
 			out.println("Welcome to Socket Programming");
 		}finally {
 			socket.close();
-		}}
+		}
+		
+		
+		}
 		}finally {
-			serversocket.close();
+			
 		}
 	}
 
