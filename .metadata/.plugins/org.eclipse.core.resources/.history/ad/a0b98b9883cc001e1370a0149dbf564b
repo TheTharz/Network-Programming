@@ -33,7 +33,7 @@ public class Server {
 		}}
 		}finally {
 			serversocket.close();
-			
+			System.exit(0);
 		}
 		
 		
