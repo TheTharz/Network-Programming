@@ -14,7 +14,7 @@ public class UDPServer {
 		server.receive(packet);
 		
 		String message = new String(packet.getData());
-		System.out.println("Meddage is : " + message);
+		System.out.println("Message is : " + message);
 		
 		server.close();
 	}
