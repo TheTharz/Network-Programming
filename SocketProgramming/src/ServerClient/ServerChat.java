@@ -29,7 +29,7 @@ public class ServerChat {
 			//until a client is connected this will listen
 			while(true) {
 			//now socket will open and until a client is connected server will hold this socket
-			Socket socket = serversocket.accept();
+			Socket socket = serversocket.accept(); //code will block here
 			System.out.println("Client is connected");
 			//sending a message to client when client is connected
 			PrintWriter out = new PrintWriter(socket.getOutputStream(),true);
